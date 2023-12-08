@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 999;
+
+}
+
+#mobile-nav a {
+    display:block;
+    padding:10px 40px;
+    color: #ffff;
+    border-bottom: solid 1px #888888;
+}
+
+#mobile-nav button {
+    padding:15px;
+    background-color: transparent;
+    color: #ffff;
+    border: none;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    max-width: 1366px;
+}
+.header {
+    padding: 20px;
+    box-shadow: 0 0 10px #888888;
+}
+.nav {
+    text-align: center;
+     min-width: 800px;
+    margin: 0 auto;
+}
+.nav a {
+    color: black;
+    padding: 0 10px;
+}
+.hero-image {
+    padding-left: 200px;
+    position:relative;
+    background-image: url(../images/websitetop2.png);
+    background-size: cover;
+    height: 332px;
+    width:991px;
+    
+}
+
+.material-symbols-outlined {  
+    font-variation-settings:  
+        'FILL' 1,  
+        'wght' 400,  
+        'GRAD' 0,  
+        'opsz' 24;
+}
+.nav button {
+    display: none;
+}
+
+@media screen and (max-width:648px) {
+    .nav a {
+        display: none;
+    }
+    .nav button {
+        display:inline;
+    }
+}
+.image-space-left {
+    padding-top: 60px;
+}
+
+.image-space-left2 {
+    padding-left:170px;
+}
+
+.grid-column3 {
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-wrap-bottom {
+    max-width: 15rem;
+    word-wrap: normal,break-word,initial,inherit;
+    text-align:center;
+}
+
+.font-size {
+    font-size: 25px;
+}
+
+.font-style {
+    Font-family: BauhausGeoExVF; font-weight: 400;
+    text-align: center;
+}
+
+.size {
+    font-size:25px;
+}
+
+.container {
+    max-width: 1366px;
+    text-align:center;
+    margin: 0 auto
+}
+
+
+.padding {
+    padding-left: 450px;
+}
+
+.padding-location {
+    padding-left: 400px
+}
+
+.h-wrap{
+    max-width: 15rem;
+    word-wrap: normal,break-word,initial,inherit;
+    text-align:center;
+    margin: auto;
+    display: block;
+}
+
+
